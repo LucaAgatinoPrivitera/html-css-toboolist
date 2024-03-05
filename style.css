@@ -3,3 +3,44 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F6F8F9;
+}
+
+header{
+    height: 7rem;
+    background-color: white;
+}
+header div img, header div h2{
+    display: inline-block;
+    vertical-align: middle;
+}
+header div img{
+    height: 5rem;
+}
+
+main{
+    margin: auto;
+    width: 70rem;
+    background-color: white
+}
+
+#bottoni{
+    margin-top: 2rem;
+}
+#addT{
+    background-color: rgb(43, 169, 219);
+    color: white;
+    border: 0;
+}
+#addS{
+    color: rgb(165, 165, 165);
+    border: 0.1rem;
+    border-color: rgb(156, 155, 155);
+    border-style: solid;
+}
+.buttonstyle{
+    padding: 0.7rem 1.5rem;
+    border-radius: 10%;
+}
